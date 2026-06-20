@@ -256,7 +256,7 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
           <div className="md:col-span-7 reveal-up active">
             <div className="group relative aspect-[16/10] overflow-hidden rounded-[4rem] dreamy-glow mb-12">
-              <img className="w-full h-full object-cover airy-image group-hover:scale-105 transition-transform duration-[4s]" alt="Luxury horizontal composition of large handmade crochet bouquets." src="src\assets\flower-in-car.png" />
+              <img className="w-full h-full object-cover airy-image group-hover:scale-105 transition-transform duration-[4s]" alt="Luxury horizontal composition of large handmade crochet bouquets." src="./assets/flower-in-car.png" />
               <div className="absolute inset-0 from-sky-blue/20 to-transparent"></div>
               <div className="absolute bottom-12 left-12 text-on-surface">
                 <h3 className="font-headline-md lowercase italic opacity-80">stanzas of silk</h3>
@@ -265,7 +265,7 @@ function App() {
           </div>
           <div className="md:col-span-5 md:pt-32 reveal-up active" style={{ transitionDelay: '200ms' }}>
             <div className="group relative aspect-[4/5] overflow-hidden rounded-[5rem] dreamy-glow floating" style={{ animationDelay: '-3s' }}>
-              <img className="w-full h-full object-cover airy-image group-hover:scale-110 transition-transform duration-[4s]" alt="Artisanal custom gift hampers." src="src\assets\flower_bouqet.png" />
+              <img className="w-full h-full object-cover airy-image group-hover:scale-110 transition-transform duration-[4s]" alt="Artisanal custom gift hampers." src="./assets/flower_bouqet.png" />
               <div className="absolute inset-0 bg-peach/10"></div>
               <div className="absolute bottom-12 left-12 text-on-surface">
                 <h3 className="font-headline-md lowercase italic opacity-80">treasured echoes</h3>
@@ -274,7 +274,7 @@ function App() {
           </div>
           <div className="md:col-span-5 reveal-up -mt-20 active">
             <div className="group relative aspect-square overflow-hidden rounded-full dreamy-glow border-[12px] border-white/40">
-              <img className="w-full h-full object-cover airy-image group-hover:rotate-12 transition-all duration-[4s]" alt="Close up of artisan hands." src="src\assets\red-flower.png" />
+              <img className="w-full h-full object-cover airy-image group-hover:rotate-12 transition-all duration-[4s]" alt="Close up of artisan hands." src="./assets/red-flower.png" />
               <div className="absolute inset-0 bg-white/20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity backdrop-blur-sm">
                 <span className="font-label-sm uppercase text-on-surface tracking-[0.5em]">Soul in Stitch</span>
               </div>
@@ -282,7 +282,7 @@ function App() {
           </div>
           <div className="md:col-span-7 reveal-up active" style={{ transitionDelay: '300ms' }}>
             <div className="group relative aspect-[16/9] overflow-hidden rounded-[4rem] dreamy-glow floating" style={{ animationDelay: '-5s' }}>
-              <img className="w-full h-full object-cover airy-image group-hover:scale-105 transition-transform duration-[4s]" alt="Wedding setting." src="src\assets\vows-of-velvet.png" />
+              <img className="w-full h-full object-cover airy-image group-hover:scale-105 transition-transform duration-[4s]" alt="Wedding setting." src="./assets/vows-of-velvet.png" />
               <div className="absolute bottom-12 left-12 text-on-surface">
                 <h3 className="font-headline-md lowercase italic opacity-80">vows of velvet</h3>
               </div>
