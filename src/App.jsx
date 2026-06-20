@@ -265,7 +265,7 @@ function App() {
           </div>
           <div className="md:col-span-5 md:pt-32 reveal-up active" style={{ transitionDelay: '200ms' }}>
             <div className="group relative aspect-[4/5] overflow-hidden rounded-[5rem] dreamy-glow floating" style={{ animationDelay: '-3s' }}>
-              <img className="w-full h-full object-cover airy-image group-hover:scale-110 transition-transform duration-[4s]" alt="Artisanal custom gift hampers." src="src\assets\flower_bouqet.png" />
+              <img className="w-full h-full object-cover airy-image group-hover:scale-110 transition-transform duration-[4s]" alt="Artisanal custom gift hampers." src="..src\assets\flower_bouqet.png" />
               <div className="absolute inset-0 bg-peach/10"></div>
               <div className="absolute bottom-12 left-12 text-on-surface">
                 <h3 className="font-headline-md lowercase italic opacity-80">treasured echoes</h3>
