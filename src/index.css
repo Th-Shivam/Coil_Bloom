@@ -1,0 +1,110 @@
+:root {
+  /* Luxury Palette for scroll hero */
+  --color-bg: #FAF9F6;        /* Ivory */
+  --color-bg-beige: #F5EBE6;  /* Soft Warm Beige */
+  --color-bg-blush: #FFF0EE;  /* Soft Blush */
+  --color-bg-dark: #1C1A17;   /* Charcoal */
+  
+  --color-accent: #C5A880;     /* Muted Gold */
+  --color-accent-light: #E2D4C1;
+  --color-accent-dark: #9E835C;
+  
+  --color-text-primary: #1C1A17;
+  --color-text-secondary: #5C5651;
+  --color-text-muted: #8C847E;
+  --color-text-light: #FAF9F6;
+  
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Base resets that work well with Tailwind Preflight */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #fcf9f8;
+  color: #1c1b1b;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* User's custom CSS classes */
+.sky-gradient {
+  background: linear-gradient(135deg, #F3E5F5 0%, #FFF3E0 40%, #E3F2FD 100%);
+}
+
+.dreamy-glow {
+  box-shadow: 0 40px 100px -20px rgba(180, 160, 200, 0.2);
+}
+
+.ethereal-blur {
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.floating {
+  animation: float 15s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  33% { transform: translateY(-30px) translateX(15px); }
+  66% { transform: translateY(20px) translateX(-10px); }
+}
+
+.reveal-up {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-up.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.letter-drift {
+  letter-spacing: 0.15em;
+  transition: letter-spacing 1s ease;
+}
+
+.letter-drift:hover {
+  letter-spacing: 0.25em;
+}
+
+.airy-image {
+  filter: brightness(1.08) contrast(0.92) saturate(0.85);
+  transition: filter 0.8s ease;
+}
+
+.airy-image:hover {
+  filter: brightness(1) contrast(1) saturate(1);
+}
+
+.iridescent-text {
+  background: linear-gradient(90deg, #b0a4e3, #e3a4b0, #a4e3d3, #b0a4e3);
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: move-gradient 12s linear infinite;
+}
+
+@keyframes move-gradient {
+  to { background-position: 300% center; }
+}
+
+/* Original fonts mapping classes for landing page video block */
+.font-editorial {
+  font-family: var(--font-serif);
+}
+.font-sans-editorial {
+  font-family: var(--font-sans);
+}
